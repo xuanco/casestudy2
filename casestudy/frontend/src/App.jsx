@@ -6,8 +6,8 @@ import SignIn from "./pages/Login/index.jsx";
 import Register from "./pages/Register/Register.jsx";
 import ManagerUsers from "./pages/admin/managerusers.jsx";
 import ManagerHouses from "./pages/admin/managerhouses.jsx";
-import AddHouse from "./pages/admin/AddHouse.jsx";
-import  EditHouse from "./pages/admin/edithouse.jsx";
+import AddHouse from "./pages/Houseadd/AddHouse.jsx";
+import  EditHouse from "./pages/HouseEdit/EditHouse.jsx";
 import HouseDetail from "./pages/HouseDetail/housedetail.jsx";
 function App() {
   return (
