@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "username": "user2",
+      "email": "user2@example.com",
+      "phone": "0987654321",
+      "password": "password456",
+      "role": "user",
+      "blocked": false
+    },
+    {
+      "id": "3",
+      "username": "admin",
+      "email": "admin@example.com",
+      "phone": "0111222333",
+      "password": "adminpass",
+      "role": "admin"
+    },
+    {
+      "id": "4",
+      "username": "user3",
+      "email": "john.doe@example.com",
+      "phone": "0999888777",
+      "password": "johnpassword",
+      "role": "user",
+      "blocked": false
+    },
+    {
+      "id": "6",
+      "username": "user30",
+      "email": "nguyen@gmail.com",
+      "phone": "0123456789",
+      "password": "matkhau123",
+      "role": "user",
+      "blocked": false
+    },
+    {
+      "id": "7",
+      "username": "user50",
+      "email": "nguyenthi@gmail.com",
+      "phone": "0123456987",
+      "password": "matkhau789",
+      "role": "user",
+      "blocked": false
+    },
+    {
+      "id": "471a",
+      "username": "user55",
+      "email": "nhanhnhen2@gmail.com",
+      "phone": "0123456789",
+      "password": "matkhau",
+      "role": "user"
+    },
+    {
+      "id": "NaN",
+      "username": "user503",
+      "email": "nhanhnhen3145@gmail.com",
+      "phone": "0123987654",
+      "password": "matkhau",
+      "role": "user",
+      "blocked": false
+    },
+    {
+      "id": "NaN",
+      "username": "user100",
+      "email": "nhanhnhenlam@gmail.com",
+      "phone": "0321654987",
+      "password": "matkhau",
+      "role": "user",
+      "blocked": false
+    },
+    {
+      "id": "db54",
+      "username": "user1000",
+      "email": "nhanhnhenlam21@gmail.com",
+      "phone": "0639258147",
+      "password": "matkhau",
+      "blocked": false,
+      "role": "user"
+    }
+  ],
+  "houses": [
+    {
+      "id": "1",
+      "name": "Căn hộ cao cấp",
+      "location": "TP. Hồ Chí Minh",
+      "type": "Căn hộ",
+      "price": "200000000",
+      "area": "160",
+      "status": "available",
+      "img": "/assets/hinhanh/hinh1.png"
+    },
+    {
+      "id": "2",
+      "name": "Biệt thự ven biển",
+      "location": "Đà Nẵng",
+      "type": "Biệt thự",
+      "price": "25.000.000 VNĐ/tháng",
+      "area": "150m²",
+      "status": "available",
+      "img": "/assets/hinhanh/hinh2.png"
+    },
+    {
+      "id": "3",
+      "name": "Nhà phố trung tâm",
+      "location": "Hà Nội",
+      "type": "Nhà riêng",
+      "price": "15.000.000 VNĐ/tháng",
+      "area": "90m²",
+      "status": "available",
+      "img": "/assets/hinhanh/hinh3.png"
+    },
+    {
+      "id": "d9d6",
+      "name": "Căn hộ",
+      "location": "Hà Nội",
+      "price": "2000000",
+      "area": "150",
+      "status": "available",
+      "img": "data:image/jpeg;base64,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"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "101",
+      "userId": "2",
+      "houseId": "1",
+      "date": "2025-04-05",
+      "status": "pending"
+    },
+    {
+      "id": "102",
+      "userId": "6",
+      "houseId": "3",
+      "date": "2025-04-10",
+      "status": "confirmed"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "201",
+      "userId": "2",
+      "houseId": "1",
+      "rating": 5,
+      "comment": "Căn hộ rất sạch sẽ và thoải mái!"
+    },
+    {
+      "id": "202",
+      "userId": "6",
+      "houseId": "3",
+      "rating": 4,
+      "comment": "Vị trí thuận tiện nhưng hơi ồn vào ban đêm."
+    },
+    {
+      "id": "0e49",
+      "rating": "1",
+      "comment": "dep",
+      "houseId": "1"
+    },
+    {
+      "id": "8211",
+      "rating": "5",
+      "comment": "canh dep",
+      "houseId": "2"
+    }
+  ]
+}

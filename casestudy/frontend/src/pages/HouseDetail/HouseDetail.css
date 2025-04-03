@@ -1,0 +1,101 @@
+/* HouseDetail.css */
+
+.house-detail-container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.house-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.rented {
+    color: red;
+    font-weight: bold;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review-form select,
+.review-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.reviews-list {
+    margin-top: 20px;
+}
+
+.review-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rating {
+    font-size: 18px;
+    color: #FFD700;
+}
+
+.no-reviews {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.loading,
+.error {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
