@@ -55,7 +55,11 @@ function HouseDetail() {
     return (
         <div className="house-detail-container">
             <h1 className="title">{house.name}</h1>
-            <img src={house.img} alt={house.name} className="house-image" />
+            <img 
+                  src={`http://localhost:3001${house.img}`} 
+                  alt={house.name} 
+                  width="100" 
+                />
             <p><strong>Địa điểm:</strong> {house.location}</p>
             <p><strong>Loại nhà:</strong> {house.type}</p>
             <p><strong>Giá thuê:</strong> {house.price} VND</p>

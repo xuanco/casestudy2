@@ -26,35 +26,35 @@ const categories = [
                 url: '/admin/home'
             },
             {
-                id: 'empty',
+                id: 'Managerusers',
                 icon: <DnsRoundedIcon/>,
                 active: false,
-                url: '/admin/books'
+                url: '/admin/managerusers'
             },
             {
-                id: 'Managerusers',
+                id: 'Managerhouses',
                 icon: <PermMediaOutlinedIcon/>,
                 active: false,
-                url: '/admin/managerusers'
+                url: '/admin/managerhouses'
 
             },
             {
-                id: 'managerhouses',
+                id: 'empty',
                 icon: <PublicIcon/>,
                 active: false,
-                url: '/admin/managerhouses'
+                url: '/admin/home'
             },
             {
                 id: 'empty',
                 icon: <SettingsEthernetIcon/>,
                 active: false,
-                url: '/admin/functions'
+                url: '/admin/home'
             },
             {
                 id: 'empty',
                 icon: <SettingsInputComponentIcon/>,
                 active: false,
-                url: '/admin/machine-learning'
+                url: '/admin/home'
             },
         ],
     }
